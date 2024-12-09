@@ -2,6 +2,8 @@ import './App.css';
 import {useState} from 'react';
 import Child from './components/child/child'
 
+// Send data from child to parent using Callback Function 
+
 function App() {
 
   const [name, setName] = useState('')
